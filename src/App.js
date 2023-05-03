@@ -1,10 +1,7 @@
-import { Component, Fragment } from "react";
-import "./App.css";
+import MyComponent from "./MyComponent";
 
-class App extends Component {
-  render = function () {
-    return <h1>hello World</h1>;
-  };
-}
+const App = () => {
+  return <MyComponent />;
+};
 
 export default App;

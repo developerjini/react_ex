@@ -1,5 +1,7 @@
-const MyComponent = (props) => {
-  let { name, children } = props;
+import { ReactPropTypes } from "react";
+
+const MyComponent = ({ name, children }) => {
+  //let { name, children } = props;
   return (
     <div>
       <h1>나의 새롭고 멋진 컴포넌트</h1>
@@ -11,6 +13,10 @@ const MyComponent = (props) => {
 
 MyComponent.defaultProps = {
   name: "기본 이름",
+};
+
+MyComponent.ReactPropTypes = {
+  name: ReactPropTypes.string,
 };
 
 export default MyComponent;

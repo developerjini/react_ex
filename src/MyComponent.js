@@ -1,4 +1,4 @@
-import { ReactPropTypes } from "react";
+import PropTypes from "react";
 
 const MyComponent = ({ name, children }) => {
   //let { name, children } = props;
@@ -15,8 +15,8 @@ MyComponent.defaultProps = {
   name: "기본 이름",
 };
 
-MyComponent.ReactPropTypes = {
-  name: ReactPropTypes.string,
+MyComponent.propTypes = {
+  name: PropTypes.string,
 };
 
 export default MyComponent;

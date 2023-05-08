@@ -1,7 +1,7 @@
-import EventPractice from "./EventPractice";
+import EventPracticeFn from "./EventPracticeFn";
 
 const App = () => {
-  return <EventPractice />;
+  return <EventPracticeFn />;
 };
 
 export default App;

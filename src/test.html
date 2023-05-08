@@ -10,9 +10,15 @@
   <button>
     click me
   </button>
+  <input type="text" name="message" placeholder="아무거나 입력하세요" />
   <script>
-    document.querySelector("button").onclick = fuction() {
+    document.querySelector("button").onclick = function() {
       alert("default event");
+    };
+
+    document.querySelector("input").onclick = function(e) {
+      console.log(e);
+      console.log(this.value);
     }
   </script>
 </body>

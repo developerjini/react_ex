@@ -9,6 +9,7 @@ const EventPractice = () => {
         placeholder="아무거나 입력해보세요"
         onChange={(e) => {
           console.log(e);
+          console.log(e.target.value);
         }}
       ></input>
     </div>

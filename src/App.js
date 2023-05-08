@@ -1,7 +1,7 @@
-import EventPracticeFn from "./EventPracticeFn";
+import ValidationSample from "./ValidationSample";
 
 const App = () => {
-  return <EventPracticeFn />;
+  return <ValidationSample />;
 };
 
 export default App;
